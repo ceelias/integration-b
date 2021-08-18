@@ -24,9 +24,9 @@ export class APIClient {
   ): Promise<void> {
     const findings: AcmeHost[] = [
       {
-        id: 'host_1',
+        id: 'host1',
         name: 'Host One',
-        hostName: 'host_1',
+        hostName: 'host-1',
       },
     ];
 
